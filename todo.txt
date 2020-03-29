@@ -1,0 +1,8 @@
+Game Subjects::
+- Score
+
+Game Observers::
+- GameState
+
+Delegates for GameState::
+- update(score: ScoreData)
