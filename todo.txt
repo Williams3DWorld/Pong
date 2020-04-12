@@ -1,8 +1,19 @@
-Game Subjects::
-- Score
+Design Observable Pattern::
+- GameScore -> GameState
 
-Game Observers::
+Create Abstract Dictionary (for storing delegates)::
+- Key: string, Object: void
+
+Create Subjects::
+- GameScore
+
+Create Observers::
 - GameState
 
-Delegates for GameState::
-- update(score: ScoreData)
+Create Delegates For GameState::
+- onPlayerScore()
+- onOponentScore()
+- onPaddleHit()
+- onWallHit()
+- onGameLose()
+- onGameWin()

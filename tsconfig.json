@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+    	"noImplicitAny": false,
+        "module": "es2015",
+        "target": "esnext",
+        "strict": false,
+        "strictPropertyInitialization": false,
+        "moduleResolution": "node"
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
